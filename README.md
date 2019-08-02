@@ -12,8 +12,8 @@ update again, and again, ...)
 
 This BoxstarterFRAIssue226 repository is created to get a minimal installation to show this bug.
 - Use the "Windows 10 (business editions), version 1903 (updated June 2019)" edition from MSDN to install Windows
-- Use a domain joined installation with user Frederique
-- After the install, copy the BoxstarterFRAIssue226.ps1 script from a share to a newly created directory c:\FRA
+- Use a domain joined installation with user Frederique 
+- After the install, don't join a domain, but copy the BoxstarterFRAIssue226.ps1 script from a share to a newly created directory c:\FRA
 - Start an elevated Powershell window
 - Use Set-ExecutionPolicy Unrestricted (and (A)ll + enter) to set the execution policy 
 - Run Boxstarter226Issue.ps1, give the password for Frederique
