@@ -15,7 +15,6 @@ $MachineCred = Get-Credential -UserName "Frederique" -Message "Account-password 
 # Install boxstarter:
 # -------------------
 
-$alreadystarted=$Boxstarter.AutoLogin
 . { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; Get-Boxstarter -Force
 
 # Settings for Boxstarter:
