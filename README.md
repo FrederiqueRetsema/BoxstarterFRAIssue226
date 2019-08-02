@@ -4,7 +4,7 @@ Show Chocolatey issue 226
 The script BoxstarterFRAIssue226.ps1 is copied from a network share. This powershell-script installs 
 Boxstarter, GIT and will clone the second part of the install. This is done from a private repository.
 
-The Boxstarter-script will install all packages, do a lot of Powershell configuration. All works fine,
+The secondpart-script will install all packages, do a lot of Powershell configuration. All works fine,
 except for the last part: the installing of Windows updates. When an update is too big, Boxstarter will
 write to the screen that the update has been installed, it will reboot after that. And in the next run,
 it will see that the same update isn't install, it will try to install it again (and will reboot, and
