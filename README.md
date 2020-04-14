@@ -21,3 +21,13 @@ This BoxstarterFRAIssue226 repository is created to get a minimal installation t
 	- It will also start the script "secondpart.ps1" from the repository, in this script the Install-WindowsUpdate
 	  command will be used
 	  
+[EDIT 14-04-2020]
+I tested this again, and this issue is solved.
+
+Tested with 
+- Windows 10 Business (Enterprise) version 18.09, 19.04, 19.09
+- Windows 10 Consumer (Home) version 19.04, 19.09
+
+Thank you all for fixing it!!
+
+Frederique
